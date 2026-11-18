@@ -6,15 +6,13 @@
 
 WARP Manager is a portable application for Windows that enables automatic IP address switching and management through the Cloudflare WARP service. This tool is designed to enhance your online privacy and security by allowing users to seamlessly change their IP addresses without the need for installation.
 
-## ⬇️ Download / İndir
+## ⬇️ Download
 
 [![Download for Windows](https://img.shields.io/badge/Download-WARP.Manager.exe-2ea44f?style=for-the-badge&logo=windows)](https://github.com/cangurel81/WARP-Manager/releases/latest/download/WARP.Manager.exe)
 
 Portable `.exe` — no installation required. Windows may warn about an unsigned binary: click **More info → Run anyway**.
 
-Kurulum gerektirmez. İmzasız olduğu için SmartScreen uyarısı gösterebilir: **More info → Run anyway**.
-
-> Requires the [Cloudflare WARP client](https://1.1.1.1/) to be installed. / Cloudflare WARP istemcisi kurulu olmalıdır.
+> Requires the [Cloudflare WARP client](https://1.1.1.1/) to be installed.
 
 ## Application Screenshot 
 
@@ -67,6 +65,18 @@ We welcome contributions! To contribute to the WARP Manager project, please foll
  -   Make your changes and commit them.
  -   Push your changes to your forked repository (e.g., git push origin feature/your-feature).
  -   Open a Pull Request on the original repository to propose your changes.
+
+## 🇹🇷 Türkçe
+
+**WARP Manager**, Windows için taşınabilir bir IP değiştirme aracıdır. Cloudflare WARP istemcisini
+kullanarak tek tıkla veya 1–10 dakika arasında seçtiğiniz aralıkla otomatik olarak genel IP adresinizi
+yeniler.
+
+- **İndirme:** [WARP.Manager.exe](https://github.com/cangurel81/WARP-Manager/releases/latest/download/WARP.Manager.exe) — kurulum gerekmez.
+- **Ön koşul:** [Cloudflare WARP istemcisi](https://1.1.1.1/) kurulu olmalı.
+- **Kaynaktan çalıştırma:** `pip install -r requirements.txt` → `python ip_resetter.py`
+- **Özellikler:** canlı IP takibi, manuel/otomatik yenileme, son 10 IP geçmişi, sistem tepsisi.
+- **Lisans:** GPL-3.0. Bu uygulama resmî bir Cloudflare ürünü değildir.
 
 ## License
 
