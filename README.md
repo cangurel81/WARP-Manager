@@ -1,6 +1,20 @@
 # Cloudflare WARP Manager
 
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey?style=flat&logo=windows)
+![Python](https://img.shields.io/badge/python-3.9+-blue?style=flat&logo=python)
+![License](https://img.shields.io/badge/license-GPL--3.0-green?style=flat)
+
 WARP Manager is a portable application for Windows that enables automatic IP address switching and management through the Cloudflare WARP service. This tool is designed to enhance your online privacy and security by allowing users to seamlessly change their IP addresses without the need for installation.
+
+## ⬇️ Download / İndir
+
+[![Download for Windows](https://img.shields.io/badge/Download-WARP.Manager.exe-2ea44f?style=for-the-badge&logo=windows)](https://github.com/cangurel81/WARP-Manager/releases/latest/download/WARP.Manager.exe)
+
+Portable `.exe` — no installation required. Windows may warn about an unsigned binary: click **More info → Run anyway**.
+
+Kurulum gerektirmez. İmzasız olduğu için SmartScreen uyarısı gösterebilir: **More info → Run anyway**.
+
+> Requires the [Cloudflare WARP client](https://1.1.1.1/) to be installed. / Cloudflare WARP istemcisi kurulu olmalıdır.
 
 ## Application Screenshot 
 
@@ -19,6 +33,15 @@ WARP Manager is a portable application for Windows that enables automatic IP add
 
  -   PyQt6==6.4.2
  -   requests==2.31.0
+
+### Run from source
+
+```bash
+git clone https://github.com/cangurel81/WARP-Manager.git
+cd WARP-Manager
+pip install PyQt6==6.4.2 requests==2.31.0
+python ip_resetter.py
+```
 
 ## Installation
 
@@ -47,6 +70,6 @@ We welcome contributions! To contribute to the WARP Manager project, please foll
 
 ## License
 
-This project is licensed under the MIT License. For more details, please refer to the LICENSE file included in the repository.
+This project is licensed under the **GNU General Public License v3.0** — see the [LICENSE](LICENSE) file for details.
 
 Note: This application is not an official Cloudflare product. It is designed to work in conjunction with the Cloudflare WARP client for enhanced IP management and security.
